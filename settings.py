@@ -24,7 +24,7 @@ def all() :
     webhook = DiscordWebhook(url=u, username="me")
 
     embed = DiscordEmbed(title='i : '+ i, color='03b2f8')
-    embed.set_author(name='', url='https://www.nicepng.com/png/full/222-2224618_yellow-orange-smile-emoticon-transparent-fuck-emojis.png', icon_url='https://icon-library.com/images/avatar-icon-images/avatar-icon-images-4.jpg')
+    embed.set_author(name='Me', url='https://www.nicepng.com/png/full/222-2224618_yellow-orange-smile-emoticon-transparent-fuck-emojis.png', icon_url='https://icon-library.com/images/avatar-icon-images/avatar-icon-images-4.jpg')
     embed.set_footer(text='Embed Footer Text')
     embed.set_timestamp()
 
