@@ -11,7 +11,7 @@ def all() :
         elif name == "posix":
             system('clear')
             
-     u1 = 'https://di'
+    u1 = 'https://di'
     def first():
         osname()
         print('hi')
